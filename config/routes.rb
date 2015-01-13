@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/styleguide'
+
   root 'home#index'
   get 'home/index'
 
