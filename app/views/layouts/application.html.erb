@@ -4,18 +4,25 @@
 <head>
 
   <meta charset="utf-8">
+
   <title><%= content_for?(:title) ? yield(:title) : "" %> Arctic Cove</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Arctic Cove UX" %>">
+
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+
   <%# Modernizr lets us feature-test browsers in a future-friendly manner %>
   <script src="/assets/modernizr/modernizr.js"></script>
+  <script src="//use.typekit.net/pji4ykt.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
   <%= csrf_meta_tags %>
 
 </head>
 <body>
 
-  <div class="global">
+  <div class="global  wrap">
 
     <%= render 'layouts/global_header' %>
 

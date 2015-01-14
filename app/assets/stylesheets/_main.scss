@@ -14,6 +14,8 @@
 // TOOLS:
 @import "inuit-functions/tools.functions";
 @import "inuit-mixins/tools.mixins";
+@import "tools.vars";
+@import "tools.mixins";
 @import "inuit-responsive-tools/tools.responsive";
 
 // GENERIC:
@@ -43,11 +45,13 @@
 @import "inuit-pack/objects.pack";
 @import "inuit-tables/objects.tables";
 @import "inuit-tabs/objects.tabs";
+@import "objects.wrap";
 
 // COMPONTENTS:
 // > Your components here <
 
-
+// SHAME:
+// @import "trumps.shame";
 
 // TRUMPS:
 @import "inuit-clearfix/trumps.clearfix";
